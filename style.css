@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left {
+  flex-basis: 50%;
+  color: #fff;
+  background: #000;
+  height: 100vh;
+}
+.left h1 {
+  padding: 1rem 2rem;
+  color: #575A85;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.left p {
+  padding: 0 2rem;
+  color: #B8BCCC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.left img {
+  width: 21rem;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.right {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #575A85;
+}
+
+.right h1 {
+  color: #B8BCCC;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ .right button {
+  background: transparent;
+  color: #B8BCCC;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0.6rem 2rem;
+  border: 1.5px solid #B8BCCC;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ .right button:hover {
+  background-color: #B8BCCC;
+  color: #575A85;
+  border-color: #B8BCCC;
+}
+.ipAddress h3{
+  color: #B8BCCC;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+ .right .ipAddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ .right .ipAddress #gfg {
+  color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main {
+  display: none;
+  background: #000;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  color: #B8BCCC;
+}
+main h1 {
+  text-align: center;
+  margin: 1rem;
+  font-weight: 700;
+}
+main .top {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .top .ip {
+  margin: 1rem 0;
+}
+main .top .ip span {
+  color: #fff;
+}
+main .top-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+}
+main .top-grid-items span {
+  color: #fff;
+}
+main .location {
+  background-color: #575A85;
+  text-align: center;
+  height: 590px;
+  padding: 2rem;
+}
+main .location iframe {
+  padding: 1rem;
+  width: 95vw;
+  height: 90%;
+}
+.sec-Head {
+  font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+.sec-Head span{
+  color: #fff;
+}
+main .more-info-container {
+  padding: 2rem;
+}
+main .more-info-container .more-info .info {
+  margin: 10px 0;
+}
+main .post-office-container {
+  padding: 2rem;
+  width: 100%;
+}
+main .post-office-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #575A85;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+main .post-office-container div .searchBox-input {
+  height: 5vh;
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+main .post-office-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+}
+.post-office-card {
+  background: #575A85;
+  color: #B8BCCC;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 1.5rem;
+  margin: 1rem 2rem;
+  border-radius: 10px;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  display: none;
+}

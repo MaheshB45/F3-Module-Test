@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Office</title>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Before clicking button -->
+    <div class="main">
+        <div class="left">
+            <h1>Post Office Application.</h1>
+            <p>
+              This Application Allows you to extract information about the nearest
+              Post Offices, based on your location.
+            </p>
+            <img src="./assets/undraw_messenger_re_8bky.png" alt="img">
+        </div>
+
+        <div class="right">
+            <button id="btn">Search Your IP Address</button>
+            <br>
+            <div class="ipAddress">
+                <h3>Your Current IP Address is : </h3>
+                <p id="gfg"></p>
+            </div>
+            <br>
+            <!-- <p id="abc"></p> -->
+            <button id="Search">Get Started</button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="loader">
+
+        </div>
+        <div class="loading">
+            <h1>Wait a second....</h1>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
